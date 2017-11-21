@@ -1,0 +1,42 @@
+.user-card{
+  width: 30%;
+  height: 80%;
+  margin: 1%;
+  padding: .5em;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.user-content{
+  width: 100%;
+  height: 75%;
+}
+.user-content .user-img{
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0,0,0,.7);
+}
+.user-content .user-img figure{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.user-content .user-img figure img{
+  width: 70%;
+  padding: 1em;
+  border-radius: 50%;
+}
+.user-content .user-card-description{
+  width: 45%;
+  margin: 0% auto;
+}
+.user-content .user-card-description figure{
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #CFD8DC;
+}
+.user-content .user-card-description figure img{
+  width: 60%;
+}
+.user-content .user-card-description figcaption{
+  padding: .5em;
+}
