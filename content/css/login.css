@@ -12,6 +12,7 @@ body {
   font-family: "futura-pt", 'Century Gothic', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  background-color: #CFD8DC;
 }
 
 a {
@@ -167,4 +168,38 @@ ul {
   border-bottom: 2px solid red;
   padding-top: 1em;
   padding-bottom: .2em;
+}
+/*mobile*/
+@media (min-width: 200px) {
+  .container{
+    width: 100%;
+  }
+}
+/* mobile devices in landscape mode and up */
+@media (min-width: 480px) {
+  .container{
+    width: 60%;
+    color:red;
+  }
+}
+/* Targets tablets in portrait mode and up*/
+@media (min-width: 600px) {
+  .container{
+    width: 60%;
+    color:green;
+  }
+}
+/*tablets in landscape mode and up */
+@media (min-width: 768px) {
+  .container{
+    width: 50%;
+    color:yellow;
+  }
+}
+/*the desktop view */
+@media (min-width: 1024px) {
+  .container{
+    width: 30%;
+    color:red;
+  }
 }

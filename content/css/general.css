@@ -61,7 +61,7 @@ header nav figcaption ul li{
 /* Content */
 .container{
   width: 95%;
-  margin: 5% auto;
+  margin: 1% auto;
   padding: 1em;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -73,6 +73,7 @@ header nav figcaption ul li{
   background-color: red;
   margin: 2%;
   text-align: center;
+  cursor: pointer;
 }
 .btn-primary{
   background-color: #0091EA;

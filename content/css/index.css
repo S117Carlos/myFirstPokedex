@@ -40,3 +40,21 @@
 .user-content .user-card-description figcaption{
   padding: .5em;
 }
+/*News */
+.news{
+  height: 60%;
+}
+.news-details{
+  width: 65%;
+  height: 100%;
+}
+.articles{
+  width: 30%;
+  height: 40%;
+}
+/* Mobile */
+@media (min-width: 200px) and (max-width: 500px){
+  .user-card{
+    width: 100%;
+  }
+}

@@ -20,5 +20,19 @@
       include 'php/getCatchedPokemons.php';
       ?>
   </section>
+  <section class="container news flex space-around">
+    <section class="news-details">
+      New pokemons
+
+    </section>
+    <article class="articles">
+      Recent dicover
+
+    </article>
+  </section>
+
+  <section class="container">
+    Meet our team
+  </section>
 </body>
 </html>
